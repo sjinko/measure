@@ -7,7 +7,7 @@ FROM renku/renkulab:renku0.10.3-py3.7-0.6.2
 # e.g. the following installs apt-utils and vim; each pkg on its own line, all lines
 # except for the last end with backslash '\' to continue the RUN line
 #
-USER root
+#USER root
 #RUN apt-get update && \
 #    apt-get install -y --no-install-recommends \
 #    apt-utils \
