@@ -1,0 +1,5 @@
+xlrd
+numpy
+pandas
+geopandas
+matplotlib
