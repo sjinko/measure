@@ -8,11 +8,10 @@ FROM renku/renkulab:renku0.10.3-py3.7-0.6.2
 # except for the last end with backslash '\' to continue the RUN line
 #
 USER root
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-    apt-utils \
-    vim \
-    apt-get install ca-certificates
+#RUN apt-get update && \
+#    apt-get install -y --no-install-recommends \
+#    apt-utils \
+#    vim
 # USER ${NB_USER}
 
 # install the python dependencies
