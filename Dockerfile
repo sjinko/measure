@@ -12,7 +12,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     apt-utils \
     vim \
-    ca-certificates
+    apt-get install ca-certificates
 # USER ${NB_USER}
 
 # install the python dependencies
